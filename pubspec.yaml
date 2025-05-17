@@ -1,0 +1,23 @@
+name: esp32_relay_control
+description: A Flutter app to control an ESP32 relay via BLE.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_reactive_ble: ^5.3.0
+  permission_handler: ^11.3.1
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
