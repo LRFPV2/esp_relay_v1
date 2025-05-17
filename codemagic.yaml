@@ -6,7 +6,7 @@ workflows:
       flutter: 3.22.2
       xcode: 16.0
       ios_signing:
-        distribution_type: adhoc # Use 'app_store' for TestFlight with paid account
+        distribution_type: ad_hoc # Use 'app_store' for TestFlight with paid account
         bundle_identifier: com.xrc_esp32_relay.espRelayControl
     scripts:
       - name: Install Flutter dependencies
